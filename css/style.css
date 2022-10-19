@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+}
+header{
+    height: 100px;
+
+}
+footer{
+    height: 100px;
+}
+
+main{
+    height: calc(100vh - 200px);
+}
+.griglia{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+.box{
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border: 1px solid white;
+/* width: calc(100% / 10);
+height: calc(100% / 10); */
+}
+.verde{
+    background-color: greenyellow;
+}
+.bomba{
+    background-color: red;
+}
